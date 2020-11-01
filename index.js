@@ -1,5 +1,5 @@
-const title = document.getElementById("title");
-
+const title = document.querySelector("#title");
 console.log(title);
-
-title.innerHTML = "Hi! From JS"
+title.style.color="red";
+title.innerHTML=("Yujinnn");
+document.title="I own you now";
