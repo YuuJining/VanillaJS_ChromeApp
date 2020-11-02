@@ -3,3 +3,11 @@ console.log(title);
 title.style.color="red";
 title.innerHTML=("Yujinnn");
 document.title="I own you now";
+
+// 변수 선언 시에는 첫 사용에 const, 진짜 필요할 때만 let쓰기
+/*
+ const what = "Yujin"; String
+ const wat = true; Boolean
+ const wat = 666; Number
+ const wat = 55.1; Float
+*/
