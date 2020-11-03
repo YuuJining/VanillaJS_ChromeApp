@@ -13,6 +13,8 @@ document.title="I own you now";
 
  const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri"];
  
+
+
  //Object
  const yujinInfo = {
      name:"Yujin",
@@ -25,11 +27,33 @@ document.title="I own you now";
      }]
  }
 
+
+
  //function
- function sayHello (name) {
-     console.log('Hello!'+name);
+ function sayHello (name, age) {
+     console.log('Hello!'+name,+" you have ",age+" years of age.");
  }
 
- sayHello("Yujin");
+ sayHello("Yujin",23);
+
+
+ --
+ function sayHello(name, age) {
+     return `Hello ${name} you are ${age} years old`;
+ }
+
+ const greetYujin = sayHello("Yujin",23)
+ console.log(greetYujin);
+ --
+ 
+
+ const calculator = {
+     plus: function(a,b) {
+         return a+b;
+     }
+ }
+
+ const plus = calculator.plus(5,5)
+ console.log(plus) => 10출력
  console은 object임
  */
