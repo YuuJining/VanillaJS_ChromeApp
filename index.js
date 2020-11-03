@@ -24,4 +24,12 @@ document.title="I own you now";
          name:"CheeseBurger", fatty:true
      }]
  }
+
+ //function
+ function sayHello (name) {
+     console.log('Hello!'+name);
+ }
+
+ sayHello("Yujin");
+ console은 object임
  */
