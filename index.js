@@ -1,8 +1,14 @@
 const title = document.querySelector("#title");
-console.log(title);
-title.style.color="red";
-title.innerHTML=("Yujinnn");
-document.title="I own you now";
+
+function handleClick() {
+    title.style.color= "blue";
+}
+
+title.addEventListener("click", handleClick)
+// console.log(title);
+// title.style.color="red";
+// title.innerHTML=("Hi! From JS");
+// document.title="I own you now";
 
 // 변수 선언 시에는 첫 사용에 const, 진짜 필요할 때만 let쓰기
 /*
@@ -72,4 +78,7 @@ document.title="I own you now";
  const plus = calculator.plus(5,5)
  console.log(plus) => 10출력
  console은 object임
+
+ //DOM(Document Object Module)
+ 페이지에서 자바스크립트로 선택한 것들이 객체가 됨.
  */
