@@ -1,7 +1,19 @@
+const API_KEY = "8b7ae4e15bc7c97cc5f1d9d49ad5d607";
 const COORDS = 'coords';
 
+function saveCoords(coordsObj) {
+    localStorage.setItem(COORDS,JSON.stringify(coordsObj));
+}
+
 function handleGeoSuccess(position) {
-    console.log(position);
+    const latitude = position.coords.latitude;
+    const longitude = position.coords.longitude;
+    const coordsObj = {
+        latitude,
+        longitude
+    };
+
+    saveCoords(coordsObj);
 }
 
 function handleGeoError() {
