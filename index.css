@@ -20,6 +20,12 @@ h1 {
     margin-top: 320px;
 }
 
+.js-form {
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 400px;
+}
+
 .js-toDoForm {
     position: absolute;
     margin-left: 620px;
