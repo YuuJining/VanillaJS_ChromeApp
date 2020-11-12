@@ -1,6 +1,6 @@
 # 바닐라 자바스크립트 - Chrome Clone Coding  
-#### 2020.11.02 - 2020.11.12  
-##### 바닐라 자바스크립트를 이용한 Chrome Momentum 웹페이지 제작   
+#### 바닐라 자바스크립트를 이용한 Chrome Momentum 웹페이지 제작  
+### 2020.11.02 - 2020.11.12  
 [웹페이지 접속하기](https://yuujining.github.io/VanillaJS_ChromeApp/)
 <br>
 <br>
