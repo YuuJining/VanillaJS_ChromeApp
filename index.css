@@ -23,7 +23,7 @@ h1 {
 .js-form {
     position: absolute;
     margin-left: 620px;
-    margin-top: 400px;
+    margin-top: 380px;
 }
 
 .js-toDoForm {
@@ -36,10 +36,11 @@ h1 {
     position: absolute;
     margin-left: 620px;
     margin-top: 460px;
+    font-size: 20px;
 }
 
 .js-weather {
-    color: #000000;
+    color: #FFFFFF;
     position: absolute;
     margin-left: 1340px;
     font-size: 20px;
